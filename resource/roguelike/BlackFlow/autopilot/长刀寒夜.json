@@ -1,0 +1,76 @@
+{
+    "stage_name": "长刀寒夜",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                8,
+                3
+            ],
+            "direction": "left"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                8,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                6,
+                4
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                6,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                8,
+                4
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                4,
+                4
+            ],
+            "direction": "down"
+        }
+    ]
+}

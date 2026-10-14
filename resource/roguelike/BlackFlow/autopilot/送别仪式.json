@@ -1,0 +1,76 @@
+{
+    "stage_name": "送别仪式",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                5,
+                4
+            ],
+            "direction": "up"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                5,
+                4
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                5,
+                2
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                5,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                4,
+                5
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                6,
+                2
+            ],
+            "direction": "down"
+        }
+    ]
+}

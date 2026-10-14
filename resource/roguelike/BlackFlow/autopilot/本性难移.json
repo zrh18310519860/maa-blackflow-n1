@@ -1,0 +1,83 @@
+{
+    "stage_name": "本性难移",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                8,
+                3
+            ],
+            "direction": "up"
+        },
+        {
+            "location": [
+                8,
+                4
+            ],
+            "direction": "down"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                8,
+                3
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                7,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                8,
+                4
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                7,
+                4
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                7,
+                2
+            ],
+            "direction": "down"
+        }
+    ]
+}

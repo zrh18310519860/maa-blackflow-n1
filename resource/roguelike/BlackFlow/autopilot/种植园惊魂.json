@@ -1,0 +1,100 @@
+{
+    "stage_name": "种植园惊魂",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                11,
+                2
+            ],
+            "direction": "left"
+        },
+        {
+            "location": [
+                10,
+                1
+            ],
+            "direction": "left"
+        },
+        {
+            "location": [
+                3,
+                3
+            ],
+            "direction": "up"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                11,
+                2
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                9,
+                4
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                10,
+                1
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                10,
+                3
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                3,
+                3
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                5,
+                2
+            ],
+            "direction": "left"
+        }
+    ]
+}

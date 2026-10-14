@@ -1,0 +1,76 @@
+{
+    "stage_name": "彼处水如酒",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                4,
+                1
+            ],
+            "direction": "right"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                4,
+                1
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                7,
+                2
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                5,
+                1
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                6,
+                2
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                8,
+                2
+            ],
+            "direction": "down"
+        }
+    ]
+}

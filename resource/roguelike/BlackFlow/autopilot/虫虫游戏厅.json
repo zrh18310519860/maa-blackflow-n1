@@ -1,0 +1,93 @@
+{
+    "stage_name": "虫虫游戏厅",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                9,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "location": [
+                9,
+                4
+            ],
+            "direction": "left"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                9,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                9,
+                5
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                9,
+                4
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                9,
+                2
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                2,
+                5
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                7,
+                3
+            ],
+            "direction": "left"
+        }
+    ]
+}

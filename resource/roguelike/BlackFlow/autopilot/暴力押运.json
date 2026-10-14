@@ -1,0 +1,83 @@
+{
+    "stage_name": "暴力押运",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                10,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "location": [
+                10,
+                5
+            ],
+            "direction": "left"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                10,
+                3
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                7,
+                4
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                10,
+                5
+            ],
+            "direction": "left"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                9,
+                4
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                6,
+                4
+            ],
+            "direction": "left"
+        }
+    ]
+}

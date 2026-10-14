@@ -1,0 +1,76 @@
+{
+    "stage_name": "遗忘时间",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                1,
+                2
+            ],
+            "direction": "up"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1开场阻挡"
+            ],
+            "location": [
+                1,
+                2
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                3,
+                2
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                2,
+                1
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                2,
+                3
+            ],
+            "direction": "up"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                5,
+                2
+            ],
+            "direction": "up"
+        }
+    ]
+}

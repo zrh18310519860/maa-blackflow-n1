@@ -1,0 +1,38 @@
+{
+  "maa_install_root": "",
+  "adb_path": "",
+  "address": "127.0.0.1:16384",
+  "default_start": "wisadel",
+  "start_profiles": {
+    "wisadel": {
+      "squad": "远程战术分队",
+      "roles": "稳扎稳打",
+      "start_opers": [
+        {"name": "维什戴尔", "use_support": true},
+        {"name": "斑点", "use_support": false},
+        {"name": "史都华德", "use_support": false}
+      ]
+    },
+    "wang": {
+      "squad": "指挥分队",
+      "roles": "先手必胜",
+      "start_opers": [
+        {"name": "望", "use_support": true},
+        {"name": "芬", "use_support": false},
+        {"name": "克洛丝", "use_support": false}
+      ]
+    },
+    "mechanist": {
+      "squad": "指挥分队",
+      "roles": "坚不可摧",
+      "start_opers": [
+        {"name": "机械师", "use_support": true},
+        {"name": "史都华德", "use_support": false},
+        {"name": "安赛尔", "use_support": false}
+      ]
+    }
+  },
+  "use_nonfriend_support": false,
+  "battle_timeout_seconds": 420,
+  "max_run_minutes": 180
+}

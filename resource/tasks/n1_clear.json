@@ -1,0 +1,212 @@
+{
+    "BlackFlow@Roguelike@N1ClearVictory": {
+        "baseTask": "BlackFlow@Roguelike@GamePass",
+        "action": "DoNothing",
+        "sub": [],
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@N1RunFailed": {
+        "baseTask": "BlackFlow@Roguelike@MissionFailedFlag",
+        "action": "DoNothing",
+        "sub": [],
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@N1RunFailed2": {
+        "baseTask": "BlackFlow@Roguelike@MissionFailedFlag2",
+        "action": "DoNothing",
+        "sub": [],
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@GamePass": {
+        "action": "DoNothing",
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@Begin": {
+        "next": [
+            "BlackFlow@Roguelike@StartExplore"
+        ],
+        "onErrorNext": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@Abandon": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@AbandonConfirm": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@ExitThenAbandon": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@ExitThenAbandon-Enter": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@StrategyTerminalAction": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@ReturnConfirm": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@StartUpThemes": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@ClickToStartPoint": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@ClickToStartPointAfterFailed": {
+        "action": "Stop",
+        "sub": [],
+        "next": [],
+        "onErrorNext": [],
+        "exceededNext": []
+    },
+    "BlackFlow@Roguelike@StartAction": {
+        "next": [
+            "BlackFlow@Roguelike@NoneSelected",
+            "BlackFlow@Roguelike@InBattleFlag",
+            "BlackFlow@Roguelike@MissionCompletedFlag",
+            "BlackFlow@Roguelike@N1RunFailed",
+            "BlackFlow@Roguelike@N1RunFailed2",
+            "BlackFlow@Roguelike@GamePassSkip1",
+            "BlackFlow@Roguelike@GamePassTheEndConfirm",
+            "BlackFlow@Roguelike@N1ClearVictory",
+            "BlackFlow@Roguelike@StartAction@LoadingText",
+            "BlackFlow@Roguelike@StartAction@LoadingIcon",
+            "BlackFlow@Roguelike@StartAction-NextLevel",
+            "BlackFlow@Roguelike@StartActionReCheck"
+        ]
+    },
+    "BlackFlow@Roguelike@GamePassSkip1Confirm": {
+        "next": [
+            "BlackFlow@Roguelike@GamePassSkip2",
+            "BlackFlow@Roguelike@GamePassTheEndConfirm",
+            "BlackFlow@Roguelike@N1ClearVictory",
+            "BlackFlow@Roguelike@GamePassSkip1Confirm@LoadingText"
+        ]
+    },
+    "BlackFlow@Roguelike@GamePassSkip2": {
+        "next": [
+            "#self",
+            "BlackFlow@Roguelike@GamePassTheEndConfirm",
+            "BlackFlow@Roguelike@N1ClearVictory"
+        ]
+    },
+    "BlackFlow@Roguelike@GamePassTheEndConfirm": {
+        "next": [
+            "BlackFlow@Roguelike@N1ClearVictory",
+            "#self"
+        ]
+    },
+    "BlackFlow@Roguelike@InBattleFlag": {
+        "next": [
+            "BlackFlow@Roguelike@InBattleFlag",
+            "BlackFlow@Roguelike@MissionCompletedFlag",
+            "BlackFlow@Roguelike@N1RunFailed",
+            "BlackFlow@Roguelike@N1RunFailed2",
+            "BlackFlow@Roguelike@InBattleFlagReCheck"
+        ]
+    },
+    "BlackFlow@Roguelike@MissionFailedFlag": {
+        "action": "DoNothing",
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@MissionFailedFlag2": {
+        "action": "DoNothing",
+        "next": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    },
+    "BlackFlow@Roguelike@Stages": {
+        "onErrorNext": [
+            "BlackFlow@Roguelike@RecoveryFailed"
+        ]
+    },
+    "BlackFlow@Roguelike@ChooseDifficultyConfirm": {
+        "action": "DoNothing",
+        "postDelay": 0,
+        "next": [
+            "BlackFlow@Roguelike@N1DifficultyVerified"
+        ]
+    },
+    "BlackFlow@Roguelike@N1DifficultyVerified": {
+        "baseTask": "BlackFlow@Roguelike@ChooseDifficulty_AnalyzeCurrentDifficulty",
+        "text": [
+            "1"
+        ],
+        "fullMatch": true,
+        "action": "DoNothing",
+        "next": [
+            "BlackFlow@Roguelike@N1ConfirmDifficulty"
+        ],
+        "onErrorNext": [
+            "BlackFlow@Roguelike@N1DifficultyCheckFailed"
+        ]
+    },
+    "BlackFlow@Roguelike@N1ConfirmDifficulty": {
+        "algorithm": "OcrDetect",
+        "action": "ClickSelf",
+        "postDelay": 500,
+        "text": [
+            "选择"
+        ],
+        "roi": [
+            1064,
+            294,
+            216,
+            170
+        ],
+        "next": []
+    },
+    "BlackFlow@Roguelike@N1DifficultyCheckFailed": {
+        "algorithm": "JustReturn",
+        "action": "Stop"
+    },
+    "BlackFlow@Roguelike@StartExplore": {
+        "preDelay": 300,
+        "onErrorNext": [
+            "BlackFlow@RoguelikeControlTaskPlugin-Stop"
+        ]
+    }
+}

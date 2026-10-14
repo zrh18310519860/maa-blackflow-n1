@@ -1,0 +1,20 @@
+{
+  "patch_id": "blackflow-n1-clear-v2",
+  "maa_version": "v6.19.0",
+  "profile": "n1_clear",
+  "required_hashes": {
+    "MaaCore.dll": "12bfff3bcde6481ed4c40a04aae2e4bddd5500ed816c6a2ff038be9e9a63b282",
+    "MAA.exe": "a4c9994d5a144acc06650abeca029f2df79ee94bb443989606c85e40b4f97415",
+    "resource/tasks/Roguelike/base.json": "055310d640c452347f3f1a08b98866ae6bd0f9217e1a919394aee5b8419effb8",
+    "resource/tasks/Roguelike/BlackFlow.json": "5e6b335c956388f1134ffb44be44ded6e254bdcd6719f2bf5112921de981e573",
+    "resource/Arknights-Tile-Pos/overview.json": "3d38cc106f0dd6f2cae40055f6da8147815f4e391eb3bf3a27259d55ca7e9886",
+    "resource/roguelike/BlackFlow/strategy.json": "5442e7fc1e5e2be67f2dc4e735fe80f449b45fd6091cffdf2f530037d0110a0c",
+    "resource/roguelike/BlackFlow/recruitment.json": "00c732072b690153d227954d9360f693b914ff4c5e0e81effde8ff6e23d4ef8c",
+    "resource/roguelike/BlackFlow/shopping.json": "0f7ec0af8ae1f94b6b30aac54920090e4692495034ad2ccf7f6cec0f128d8175",
+    "resource/roguelike/BlackFlow/node_execution.json": "64899f6cbd1dc7b514b19505d13204c441803f2ba41b410755e6877674583e41"
+  },
+  "stage_count": 33,
+  "combat_tested": false,
+  "start_profiles": ["wisadel", "wang", "mechanist"],
+  "upstream_commit": "b39e052295eaba8e94b5a03f9fe0f1fe8e978dc1"
+}

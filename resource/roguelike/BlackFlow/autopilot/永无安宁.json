@@ -1,0 +1,103 @@
+{
+    "stage_name": "永无安宁",
+    "not_use_dice": true,
+    "replacement_home": [
+        {
+            "location": [
+                7,
+                1
+            ],
+            "direction": "down"
+        },
+        {
+            "location": [
+                8,
+                3
+            ],
+            "direction": "down"
+        }
+    ],
+    "role_order": [
+        "pioneer",
+        "sniper",
+        "tank",
+        "medic",
+        "caster",
+        "warrior",
+        "support",
+        "special",
+        "drone"
+    ],
+    "deploy_plan": [
+        {
+            "groups": [
+                "N1回费"
+            ],
+            "location": [
+                8,
+                3
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1核心高台"
+            ],
+            "location": [
+                6,
+                3
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                7,
+                1
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1治疗"
+            ],
+            "location": [
+                6,
+                2
+            ],
+            "direction": "right"
+        },
+        {
+            "groups": [
+                "N1术师"
+            ],
+            "location": [
+                7,
+                2
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1持续阻挡"
+            ],
+            "location": [
+                6,
+                4
+            ],
+            "direction": "down"
+        },
+        {
+            "groups": [
+                "N1副狙击"
+            ],
+            "location": [
+                8,
+                6
+            ],
+            "direction": "left"
+        }
+    ]
+}

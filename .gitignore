@@ -1,0 +1,12 @@
+settings.json
+manifest.json
+runtime/
+base-snapshot/config/
+test-report.json
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.zip
+*.log
+*.dmp
